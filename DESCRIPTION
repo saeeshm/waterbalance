@@ -1,0 +1,22 @@
+Package: waterbalance
+Title: Calculating area-based water balance models using gridded input data
+Version: 0.0.0.1000
+Authors@R: 
+    person(given = "Saeesh",
+           family = "Mangwani",
+           role = c("aut", "cre"),
+           email = "saeeshm@gmail.com")
+Description: A GIS-based approach for calculating area-specific water budgets using gridded input data. Essentially an R-interface to the ArcGIS toolbox develop by James Dyer.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    terra (>= 1.5.17)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)

@@ -3,4 +3,6 @@
 .Rhistory
 .RData
 .Ruserdata
+.httr-oauth
+.DS_Store
 data/
